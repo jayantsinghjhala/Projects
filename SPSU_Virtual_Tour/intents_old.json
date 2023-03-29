@@ -1,0 +1,108 @@
+{
+  "intents": 
+  [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again for any query."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "Which courses do you have in engineering?",
+        "What kinds of courses are there in engineering?",
+        "What do you teach in engineering?",
+        "What courses you have?",
+        "What courses you offer?",
+        "What courses you have?"
+      ],
+      "responses": [
+        "We teach computer science, electronics, electrical, biotech, civil engineering courses",
+        "We have computer science, electronics, electrical, biotech, civil engineering courses"
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "How much fees do you charge?",
+        "What is the fees for engineering course?",
+        "How much fees for computer science engineering?",
+        "How much fees for electronics engineering?",
+        "How much fees for electrical engineering?",
+        "How much fees for civil engineering?"
+      ],
+      "responses": [
+        "The fees for this course is around 1,80,000 per year",
+        "We charge around 1,80,000 per year plus scholarship deductions "
+      ]
+    },
+    {
+      "tag": "session",
+      "patterns": [
+        "When does the new session start?",
+        "When do you start classes for first year?",
+        "When do you start lecture for first semester?",
+        "From which month new session will begin?"
+      ],
+      "responses": [
+        "New Session will begin from 1st september",
+        "First year lectures will start from 1st september"
+      ]
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+        "Do you have hostels?",
+        "Does the university have hostel facility?",
+        "Are there hostel in the college?",
+        "Do you provide hostel faciliy?",
+        "Do the university have AC hostel rooms?"
+      ],
+      "responses": [
+        "Yes, the university have hostel facility with separate AC/Non AC rooms",
+        "The university provides hostels rooms with AC and non AC room based on requirement"
+      ]
+    },
+    {
+      "tag": "hostelfees",
+      "patterns": [
+        "What is the hostel fees for non ac rooms?",
+        "What is the fees for hostel?",
+        "How much fees you charge for hostel?",
+        "How much fees for ac hostel rooms?",
+        "What is the fees for ac rooms in hostel?"
+      ],
+      "responses": [
+        "We charge 90,000 for Non AC and 50,000 extra for AC room",
+        "Fees for Non AC Hostel Room is 90,000 and for AC room you need to pay 50,000 extra"
+      ]
+    }
+
+  ]
+}
