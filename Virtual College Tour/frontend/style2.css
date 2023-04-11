@@ -1,0 +1,85 @@
+body {font-family: "Arial", Georgia, Serif;}
+
+html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
+
+hr{border:0;border-top:1px dotted rgb(91, 74, 74);margin:20px 0}
+
+
+.bluebar {
+background-color: #6495ED;
+letter-spacing: 4px;
+}
+
+h1{font-size:36px}h4{font-size:20px}
+h1,h4{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0;letter-spacing:1.5px}
+
+/* Separate */
+
+.top{position:fixed;width:100%;z-index:3}.top{top:0}
+
+.bar .bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0}
+
+.justify{text-align:justify!important}
+.center{text-align:center!important}
+
+.right{float:right!important}
+
+.display-container{position:relative}
+
+.content{margin-left:auto;margin-right:auto}
+
+.image{max-width:100%;height:auto}img{vertical-align:middle}a{color:inherit}
+
+.padding-large{padding:12px 24px!important}
+.padding-64{padding-top:64px!important;padding-bottom:64px!important}
+.padding-32{padding-top:32px!important;padding-bottom:32px!important}
+
+.opacity-75{opacity:0.75}
+
+.col{float:left;width:100%}
+.col.l{width:49.99999%}
+.col.m{width:49.99999%}
+
+.round{border-radius:4px}
+
+.large{font-size:18px!important}
+
+.bar{width:100%;overflow:hidden}.center .bar{display:inline-block;width:auto}
+
+.row:after,.row:before,.row-padding:after,.row-padding:before,
+.cell-row:before,.cell-row:after,.clear:after,.clear:before,.bar:before,.bar:after{content:"";display:table;clear:both}
+
+.text-grey{color:#757575!important}
+
+.text-blue-grey{color:#607d8b!important}
+
+.light-grey{color:#000!important;background-color:#f1f1f1!important}
+
+.hover-text-green:hover{color:#4CAF50!important}
+
+.hover-text-red:hover{color:#631818!important}
+
+.button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+
+.wrapper
+{
+     position:relative;
+     z-index:2;
+}
+
+.hide{
+     position: absolute;
+     width: 1101px;
+     height: 14px;
+     background: rgb(255, 255, 255);
+     left: 0px;
+     bottom: 6px;
+     z-index:999;
+     display: block;
+     color: rgb(255, 255, 255);
+ }
+
+
+
+
+
